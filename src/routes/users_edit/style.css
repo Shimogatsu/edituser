@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+}
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    display: block;
+    border: 0;
+}
+.name,
+.save {
+    align-items: center;
+    margin: auto 0;
+}
